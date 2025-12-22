@@ -244,6 +244,218 @@
 # print("Remaining Set:", numbers)
 
 #union() 
-a={1,4,3}
-b={3,4,5}
-print(a.difference(b))
+# a={1,4,3}
+# b={3,4,5}
+# print(a.difference(b))
+
+#Login System (Username + Password Check) 
+# correct_user="Nilesh"
+# correct_pass="1234"
+
+# while True:
+#     user=input("Enter Username: ")
+#     pas=input("Enter Password: ")
+    
+#     if user==correct_user and pas==correct_pass:
+#         print("Login Successfully!")
+#         break
+    
+#     else:
+#         print("Invalid  Try Again!....\n")    
+
+#print no 1 to 100
+# num=1
+# while num<=100:
+#     print(num)
+#     num=num+1
+
+#sum of first 5 nos
+# i=1
+# sum=0
+# while i<=5:
+#     sum=sum+i
+#     i=i+1
+#     print(sum)
+            
+#Print even numbers from 2 to 20            
+# num=2
+# while num<=20:
+#     if num%2==0:
+#         print(num)
+#         num=num+2
+
+# number = 5
+
+# while number >= 1:
+#     print(number)
+#     number -= 1
+
+# i=1
+# while i<=10:
+#     print("2 x",i,"=",2*i)
+#     i=i+1
+
+#Student Marks Management
+# total=0
+# count=0
+
+# while True:
+#     marks=int(input("Enter marks (or -1 to stop): "))
+    
+#     if marks==-1:
+#         break
+#     total+=marks
+#     count+=1
+# avg=total/count
+# print("Average marks:",avg)    
+
+#Number Guessing Game
+
+# import random
+
+# secret = random.randint(1, 20)
+
+# guess = 0
+
+# while guess != secret:
+#     guess = int(input("Guess the number (1-20): "))
+
+#     if guess < secret:
+#         print("Too Low!")
+#     elif guess > secret:
+#         print("Too High!")
+#     else:
+#         print("Correct! You win!")
+
+
+#Functions
+# def my_function():
+#     a=10
+#     b=22
+#     sum=a+b
+#     print(sum)
+#     avg= (a+b)/2
+#     print(avg)
+    
+# my_function()  
+# def cal_per(total,obtained):
+#     percent=(obtained/total)*100
+#     return percent
+
+# p= cal_per(500,430)
+# print("percentage =",p)
+
+# def add(a,b):
+#     print("sum=", a+b)
+    
+# add(5,6) 
+
+#function with return parameter
+# def square(n):
+#     return n*n
+# result= square(7)
+   
+# print(result)
+
+#Function to Check Even or Odd
+# def Even_odd(n):
+#     if n % 2 == 0:
+#         print(n,"even no.")
+#     else:
+#         print(n,"odd no.")
+# Even_odd(10)        
+   
+#    Function With Loop (Print Table) 
+# def table(n):
+#     for i in range(1,11):
+#         print(n,"x",i, "=",n*i) 
+# table(5)           
+
+#Function Returning Multiple Values
+# def calculate(a, b):
+#     add = a + b
+#     sub = a - b
+#     return add, sub
+
+# x, y = calculate(10, 3)
+# print("Addition:", x)
+# print("Subtraction:", y)
+
+#Function With Default Parameter
+# def welcome(name="Nilesh"):
+#     print("Welcome",name)
+# welcome()    
+# welcome("Atul")            
+       
+# def student(name, course="BCA"):
+#     print("Name:", name)
+#     print("Course:", course)
+
+# student("Nilesh")
+# student("Atul", "B.Tech")
+
+# def total_sum(numbers):
+#     return sum(numbers)
+
+# print(total_sum([10, 20, 30, 40]))
+
+# def is_adult(age):
+#     return age >= 18
+
+# print(is_adult(15))
+# print(is_adult(21))
+
+#Function Using String Operations
+# def count_vowels(text):
+#     vowels="aeiouAEIOU"
+#     count=0
+#     for ch in text:
+#         if ch in vowels:
+#             count+=1
+#     return count
+
+# print(count_vowels("python programming"))
+
+# def fun(animal, name):
+#     print("I have a ",animal)
+#     print("my ", animal+" name is ",name) 
+# fun("buddy", "dog")    
+           
+# Sending a list as an argument        
+# def my_function(fruits):
+#     for fruit in fruits:
+#         print(fruit) 
+
+# my_fruits=["apple", "banana", "cherry"]
+# my_function(my_fruits)
+
+#Sending a dictionary as an argument:
+# def my_fun(person):
+#     print("Name:", person["name"])   
+#     print("Age", person["age"])
+    
+# my_per={"name":"nilesh", "age":19}    
+# my_fun(my_per)
+
+#A function that returns a list:
+# def my_function():
+#   return ["apple", "banana", "cherry"]
+
+# fruits = my_function()
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+
+#A function that returns a tuple
+# def my_function():
+#     return (10,20)
+
+# x,y= my_function()
+# print("x:", x)
+# print("y:", y)
+
+# def my_function(*, name):
+#   print("Hello", name)
+
+# my_function(name = "Emil")
+

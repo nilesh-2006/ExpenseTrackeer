@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is the capital of India?",
+        "options": ["A. Delhi", "B. Mumbai", "C. Kolkata", "D. Chennai"],
+        "answer": "A"
+    },
+    {
+        "question": "Who invented Python?",
+        "options": ["A. Dennis Ritchie", "B. Guido van Rossum", "C. Elon Musk", "D. Bill Gates"],
+        "answer": "B"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["A. Earth", "B. Mars", "C. Venus", "D. Jupiter"],
+        "answer": "B"
+    },
+    {
+        "question": "Who wrote the National Anthem of India?",
+        "options": ["A. Gandhi", "B. Nehru", "C. Tagore", "D. Bose"],
+        "answer": "C"
+    },
+    {
+        "question": "What is H2O?",
+        "options": ["A. Oxygen", "B. Water", "C. Hydrogen", "D. Salt"],
+        "answer": "B"
+    }
+]

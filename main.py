@@ -1,0 +1,26 @@
+from tracker import MyExpenseTracker
+
+tracker = MyExpenseTracker()
+# tracker.add_expense()
+print("***** Welcome to Expense Tracker *****")
+while True:
+    
+    tracker.show_menu()
+
+    try:
+        choice = int(input("Please Enter your Choice: "))
+    except ValueError:
+        print("Invalid input!")
+        continue
+
+    if choice == 1:
+        tracker.add_expense()
+    elif choice == 2:
+        tracker.view_expenses()
+    elif choice == 3:
+        tracker.total_expense()
+    elif choice == 4:
+        print("Thank you for using Expense Tracker. Goodbye!")
+        break
+    else:
+        print("Invalid Choice.")
