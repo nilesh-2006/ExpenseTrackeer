@@ -330,3 +330,302 @@
 # result = fibonacci(num)
 # print("Fibonacci number at position", num, "is:", result)
  
+# def factorial(n):
+#     fact = 1
+#     for i in range(1, n + 1):
+#         fact *= i
+#     return fact
+
+# num = int(input("Enter a number: "))
+# print("Factorial =", factorial(num))
+
+#Create a function that returns the square of a number. 
+# def function(n):
+#     return n*n
+# num=int(input("Enter a number: "))
+# result=function(num)
+# print("square=", result)
+
+#Create a function that checks whether a number is even or odd.
+# def check_even_odd(num):
+#     if num % 2 == 0:
+#         return "Even Number"
+#     else:
+#         return "Odd Number"
+
+# # user input
+# n = int(input("Enter a number: "))
+
+# result = check_even_odd(n)
+# print(result)
+
+# #Create a function that takes 2 numbers and prints the larger one
+# def larger(a,b):
+#     if a>b:
+#         print("Larger no. is: ",a)
+#     elif b>a:
+#         print("Larger no is : ",b)
+#     else:
+#         print("Both nos are equal")   
+
+# num1=int(input("Enter Number 1:"))  
+# num2=int(input("Enter number2: "))
+# larger(num1,num2)           
+
+# Write a function that converts Celsius → Fahrenheit
+# def celsius_to_fehre(c):
+#     f=(c * 10/5)+32
+#     return f
+    
+# #input from user
+# celsius=float(input("Enter temp in celsius: "))
+# fehremheit = celsius_to_fehre(celsius)
+# print(fehremheit) 
+
+# Create a function that prints your name 5 times. 
+# def myfun(name):
+    
+#     for i in range(5):
+#         print(name)
+        
+# your_name= input("enter your name:")
+# myfun(your_name)               
+        
+#Create a function that takes a string and returns its length.  
+# def length_string(text):
+#     count=0
+#     for cha in text:
+#         count+=1
+#     return count
+
+# user_string=input("Enter the string: ")
+# result= length_string(user_string)
+# print("Length of the string: ", result)
+
+#Create a function that returns the cube of a number. 
+# def cube(n):
+#     return n**3
+
+# num=int(input("Enter a number:"))
+# result= cube(num)
+# print(result)
+   
+#Function to check if a number is positive, negative, or zero. 
+
+# def positive(num):
+    
+#     if num>0:
+#         return  "is a positive."
+#     elif num<0:
+#         return "is a negative."       
+#     else:
+#         return  "is zero."
+
+# n=int(input("enter a number: "))            
+# result= positive(n)
+# print("Result : ", result)
+
+#Write a function that takes 3 numbers and returns their average.
+# def Average(a,b,c):
+#     avg= (a+b+c)/3
+#     return avg
+
+# x=float(input("Enter first number: "))
+# y=float(input("Enter second Number: "))
+# z=float(input("enter Third Number: "))
+
+# result= Average(x,y,z)
+# print("Average =", result)
+
+#Create a function that returns the absolute value of a number 
+# def abs(num):
+#     if num < 0:
+#         return -num
+#     else:
+#         return num
+# n=float(input("Enter a no.:")  )
+# result= abs(n)
+# print("result:", result)  
+
+# Function that counts vowels in a string. 
+# def vowels_count(num):
+#     vowels="aeiouAEIOU"
+#     count=0
+#     for i in num:
+#         if i in vowels:
+#           count+=1
+#     return count
+
+# n=input("Enter a String: ")
+# result=vowels_count(n)     
+# print("Vowels is :", result)
+            
+# Function that counts vowels and consonant in a string. 
+
+# def count_vowels_consonant(text):
+#     vowels= "aeiouAEIOU"
+#     count_vowels=0
+#     consonant_count=0
+    
+#     for cha in text:
+#         if cha.isalpha():  # count the A-Z letters
+#             if cha in vowels:
+#                 count_vowels+=1
+#             else:
+#                 consonant_count+=1
+#     return count_vowels , consonant_count
+
+# s= input("Enter a String : ") 
+# count_vowels , consonant_count = count_vowels_consonant(s)
+# print("Total vowels: ",count_vowels)
+# print("Total consonant: ", consonant_count)
+
+#   Function that removes spaces from a sentence. 
+# def remove_space(sentence):
+#     result=""             
+#     for char in sentence:
+#         if char !=" ":
+#             result+=char
+#     return result
+
+# s=input("Enter a string:")
+# output= remove_space(s)
+# print("sentence without spaces:", output)
+               
+#Function that checks if a number is prime.
+# def prime(num):
+#     if num<=1:
+#         return "Not a prime number"
+
+#     for i in range(2, int(num**0.5)+1):
+#             if num%2==0:
+#                 return "Not prime"
+
+#     return "prime number"
+
+# n=int(input("Enter a number:"))
+# print(prime(n))
+
+#factorial using loop
+# def factorial(num):
+#     fact=1
+#     for i in range(1, num+1 ):
+#         fact*=i
+#     return fact
+
+# n=int(input("Enter a number:"))
+# result= factorial(n)    
+# print(result)
+
+#factorial using recursion 
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return n*factorial(n-1)
+   
+# num= int(input("Enter number:"))
+# print("Factorial=",factorial(num))   
+
+#Function that reverses a list. 
+# def reverse_list(num):
+#     reversed_list=[]
+#     for item in num:
+#          reversed_list.insert(0, item)
+#     return reversed_list
+
+# my_list=[1,2,3,4,5]
+# print(reverse_list(my_list))
+
+#✅ Reverse List Using Slicing + Print Format
+# def reverse_list(list):
+#     return list[::-1]
+
+# my_list=[1,2,3,4,5]
+# print(reverse_list(my_list))
+
+#Using built-in reverse()
+# def reverse_list(list):
+#     list.reverse()
+#     return list
+
+# my_list=[1,2,3,4,5]
+# print(reverse_list(my_list))
+
+# Function that finds max & min without using max(), min() 
+
+# def  minmax(list):
+#     maximum=list[0]
+#     minimum=list[0]
+
+#     for num in list:
+#         if num>maximum:
+#             maximum=num
+
+#         if num< minimum:
+#             minimum=num
+            
+#     return maximum, minimum
+
+# my_list=[12,3,20,5,3,30,9]
+# max_value, min_value= minmax(my_list)
+# print("Maximum value:", max_value)
+# print("Minumum value:", min_value)
+
+# def sum_list(lst):
+#     sum=0
+#     for num in lst:
+#         sum+=num
+#     return sum
+           
+# my_list=[1,2,3,4,5]  
+# print("Sum=",sum_list(my_list))      
+        
+#Function to check palindrome string.   
+
+# def is_palindrome(s):
+#     s = s.lower()              # case-insensitive check
+#     if s == s[::-1]:           # reverse string compare
+#         return True
+#     else:
+#         return False
+
+# word = "Madam"
+# print(is_palindrome(word))
+
+# def is_palindrome(s):
+#     s_lower = s.lower()
+#     return s_lower == s_lower[::-1]
+
+# word = "Madam"
+# print("Reversed:", word[::-1])
+# print("Is palindrome?", is_palindrome(word))
+
+# using number 
+# def reverse_number(num):
+#     reversed_num=0
+#     digit=0
+#     while num > 0:
+#         digit=num% 10          # last digit nikalna 
+#         reversed_num=reversed_num * 10 + digit #  reverse me add karna 
+#         num= num// 10 # last digit remove karna 
+#     return reversed_num
+
+# number=12345
+# print("original number:",number)   
+# print("Reversed number:", reverse_number(number))
+
+# def total(*number):
+#     sum=0
+#     for num in number:
+#         sum+=num
+#     return sum 
+
+# print(total(5,10,15))
+# print(total(1,2,3,4,5,6))
+    
+def square(n):
+    return n * n
+def double_square(n):
+    return square(n) * 2
+print(double_square(5))    
