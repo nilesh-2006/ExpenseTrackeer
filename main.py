@@ -1,10 +1,11 @@
+# -------- Main Program --------
+
 from tracker import MyExpenseTracker
 
 tracker = MyExpenseTracker()
-# tracker.add_expense()
+
 print("***** Welcome to Expense Tracker *****")
 while True:
-    
     tracker.show_menu()
 
     try:
@@ -20,6 +21,9 @@ while True:
     elif choice == 3:
         tracker.total_expense()
     elif choice == 4:
+        tracker.category_wise_total()
+    
+    elif choice == 5:
         print("Thank you for using Expense Tracker. Goodbye!")
         break
     else:
