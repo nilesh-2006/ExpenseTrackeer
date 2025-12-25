@@ -22,8 +22,9 @@ while True:
         tracker.total_expense()
     elif choice == 4:
         tracker.category_wise_total()
-    
     elif choice == 5:
+        tracker.delete_expense()
+    elif choice == 6:
         print("Thank you for using Expense Tracker. Goodbye!")
         break
     else:

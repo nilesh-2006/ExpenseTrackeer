@@ -1,0 +1,10 @@
+13-01-2025|Travel|Bus|50.0
+12 nov 2025 |Food|mango|50.0
+23 dec 2025|food|mango |50.0
+10 jan|playing |cricket|500.0
+10|food|apple|40.0
+2024-04-12|Food|Apple|50.0
+2024-05-19|Others|Mango|60.0
+2005-04-23|Food|Apple|50.0
+2025-12-25|Food|Apple|50.0
+2025-12-26|Travel|Manali|500.0
