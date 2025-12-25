@@ -322,7 +322,7 @@
 #     else:
 #         # Recursive Case: formula apply
 #         return fibonacci(n - 1) + fibonacci(n - 2)
-
+# print(fibonacci(7))
 
 # # --- MAIN PROGRAM WITH USER INPUT ---
 # num = int(input("Enter a number: "))
@@ -624,8 +624,9 @@
 # print(total(5,10,15))
 # print(total(1,2,3,4,5,6))
     
-def square(n):
-    return n * n
-def double_square(n):
-    return square(n) * 2
-print(double_square(5))    
+# def square(n):
+#     return n * n
+# def double_square(n):
+#     return square(n) * 2
+# print(double_square(5))
+
